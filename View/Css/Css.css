@@ -1,0 +1,154 @@
+/** Menu **/
+.nav{
+    position : fixed;
+    right : 88%;
+    bottom : 10%;
+    width : 10%;
+}
+.menu{
+/*	border: solid yellow;*/
+	position : relative;
+	z-index: 2;
+    width : 120px;
+	min-width : 25px;
+	height : 120px;
+	line-height : 125px;
+ 	border-radius : 50%;
+    background-color : black;
+	opacity: 0.75;
+    color : white;
+	text-align : center;
+	font-size: 40px;
+}
+.menu .fa{
+	position : relative;
+
+}
+.menu span{
+	display : none;
+}
+.menu:hover span{
+/*	border: solid yellow;*/
+	position : absolute;
+	display : inline;
+	z-index: 3; /* On définit une valeur pour l'ordre d'affichage. */
+   /*white-space: nowrap;*/ /* On change la valeur de la propriété white-space pour qu'il n'y ait pas de retour à la ligne non désiré. */
+	top: 35px;
+	left: 30px;
+	background: black;
+	color:white;
+ 	border-radius : 50%;
+	font-size: 20px;
+	padding: 10px;
+}/** fin menu **/
+
+/** Colorisation **/
+#link_Accueil, #Accueil, #corps_Accueil{
+	color : #99CCFF;
+	text-decoration: none;
+}
+#link_CV, #CV, #corps_CV{
+	color : #CC99FF;
+	text-decoration: none;
+}
+#link_Realisations, #Realisations, #corps_Realisations{
+	color : #99FF99;
+	text-decoration: none;
+}
+#link_Veille, #Veille, #corps_Veille{
+	color : #FFFFCC;
+	text-decoration: none;
+}
+#link_Environnement, #Environnement, #corps_Environnement{
+	color : #FFFF99;
+	text-decoration: none;
+}
+#link_Contact, #Contact, #corps_Contact{
+	color : #FFCC99;
+	text-decoration: none;
+}/** fin colorisation **/
+
+/** icônes **/
+.fa-file-pdf-o {} /*document pdf pour proposer de télécharger au format pdf*/
+.fa-download{} /*téléchargement pour proposer de télécharger des éléments*/
+/** fin icônes **/
+
+/** corps de la page **/
+.corps{
+    float : left;
+    width : 80%;
+    height: 90%;
+    border : 3px black solid;
+    background-color : gray;
+    padding : 12px;
+    margin : 12px;
+    overflow : auto;
+    position : absolute;
+    right : 2%;
+    bottom : 2%;    
+}
+.texte{
+	height: 80%;
+}
+.liens{
+}
+ /** images**/
+#linkedin{
+	width : 24px;
+	height : 24px;
+	margin : 4px;
+}
+ 
+#viadeo{
+	width : 24px;
+	height : 24px;
+	margin : 4px;
+}/** fin corps de la page **/
+
+
+/**** Animation des paragraphes ****/
+/** apparence **/
+#projet1_clos {
+    background: #6B9A49; 
+	color: #fff;
+}
+#projet1_clos a.ouvrir, #projet1_clos a.fermer {
+    background: #555;
+    color: #fff;
+    padding: 3px;
+    text-decoration: none;
+}
+#icone1, #icone2{
+    font-size: 20px;
+    padding-left: 5px;
+}
+#article1{
+	padding: 10px;
+	min-height: 30px;
+}/** fin apparence **/
+
+/** positionnement **/
+#projet1_clos a.ouvrir, #projet1_clos a.fermer {
+    position: absolute;
+	width: 97%;
+	border: solid 1px yellow;
+}/** fin positionnement **/
+
+/** animation **/
+#projet1_clos a.fermer {
+    display: none;
+}
+#projet1:target #article1 {
+    display: none;
+}
+#projet1_clos{
+    -webkit-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+}
+#projet1_clos:target a.ouvrir {
+    display: none;
+}
+#projet1_clos:target a.fermer {
+    display: block;
+} /** fin animation **/
+
