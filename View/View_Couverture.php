@@ -5,7 +5,7 @@
 	
 	echo'
 		<div id="portfolio"> 
-			<a href="/View/View_Accueil.php" id="link_Portfolio"> 
+			<a href="View_Accueil.php" id="link_Portfolio"> 
 				Portfolio 
 			</a>
 		</div>

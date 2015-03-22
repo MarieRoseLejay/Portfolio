@@ -1,4 +1,4 @@
-/** Menu **/
+/**** Menu ****/
 .nav{
     position : fixed;
     right : 88%;
@@ -6,74 +6,74 @@
     width : 10%;
 }
 .menu{
-/*	border: solid yellow;*/
-	position : relative;
-	z-index: 2;
+    /*	border: solid yellow;*/
+    position : relative;
+    z-index: 2;
     width : 120px;
-	min-width : 25px;
-	height : 120px;
-	line-height : 125px;
- 	border-radius : 50%;
+    min-width : 25px;
+    height : 120px;
+    line-height : 125px;
+    border-radius : 50%;
     background-color : black;
-	opacity: 0.75;
+    opacity: 0.75;
     color : white;
-	text-align : center;
-	font-size: 40px;
+    text-align : center;
+    font-size: 40px;
 }
 .menu .fa{
-	position : relative;
-
+    position : relative;
 }
 .menu span{
-	display : none;
+    display : none;
 }
 .menu:hover span{
-/*	border: solid yellow;*/
-	position : absolute;
-	display : inline;
-	z-index: 3; /* On définit une valeur pour l'ordre d'affichage. */
-   /*white-space: nowrap;*/ /* On change la valeur de la propriété white-space pour qu'il n'y ait pas de retour à la ligne non désiré. */
-	top: 35px;
-	left: 30px;
-	background: black;
-	color:white;
- 	border-radius : 50%;
-	font-size: 20px;
-	padding: 10px;
-}/** fin menu **/
+    /*	border: solid yellow;*/
+    position : absolute;
+    display : inline;
+    z-index: 3; /* On définit une valeur pour l'ordre d'affichage. */
+    /*white-space: nowrap;*/ /* On change la valeur de la propriété white-space pour qu'il n'y ait pas de retour à la ligne non désiré. */
+    top: 35px;
+    left: 30px;
+    background: black;
+    color:white;
+    border-radius : 50%;
+    font-size: 20px;
+    padding: 10px;
+}/**** fin Menu ****/
 
+/**** Architecture de la page ****/
 /** Colorisation **/
 #link_Accueil, #Accueil, #corps_Accueil{
-	color : #99CCFF;
-	text-decoration: none;
+    color : #99CCFF;
+    text-decoration: none;
 }
 #link_CV, #CV, #corps_CV{
-	color : #CC99FF;
-	text-decoration: none;
+    color : #CC99FF;
+    text-decoration: none;
 }
 #link_Realisations, #Realisations, #corps_Realisations{
-	color : #99FF99;
-	text-decoration: none;
+    color : #99FF99;
+    text-decoration: none;
 }
 #link_Veille, #Veille, #corps_Veille{
-	color : #FFFFCC;
-	text-decoration: none;
+    color : #FFFFCC;
+    text-decoration: none;
 }
 #link_Environnement, #Environnement, #corps_Environnement{
-	color : #FFFF99;
-	text-decoration: none;
+    color : #FFFF99;
+    text-decoration: none;
 }
 #link_Contact, #Contact, #corps_Contact{
-	color : #FFCC99;
-	text-decoration: none;
-}/** fin colorisation **/
+    color : #FFCC99;
+    text-decoration: none;
+}/** fin Colorisation **/
 
 /** icônes **/
 .fa-file-pdf-o {} /*document pdf pour proposer de télécharger au format pdf*/
 .fa-download{} /*téléchargement pour proposer de télécharger des éléments*/
 /** fin icônes **/
 
-/** corps de la page **/
+/** Corps de la page **/
 .corps{
     float : left;
     width : 80%;
@@ -85,34 +85,111 @@
     overflow : auto;
     position : absolute;
     right : 2%;
-    bottom : 2%;    
+    bottom : 2%;
+    font-family: Arial;
 }
 .texte{
-	height: 80%;
+    height: 80%;
 }
 .liens{
 }
- /** images**/
+/** images**/
 #linkedin{
-	width : 24px;
-	height : 24px;
-	margin : 4px;
+    width : 24px;
+    height : 24px;
+    margin : 4px;
 }
- 
 #viadeo{
-	width : 24px;
-	height : 24px;
-	margin : 4px;
-}/** fin corps de la page **/
+    width : 24px;
+    height : 24px;
+    margin : 4px;
+}/** fin Corps de la page **/
+/**** fin Architecture de la page ****/
 
-
-/**** Animation des paragraphes ****/
-/** apparence **/
-#projet1_clos {
-    background: #6B9A49; 
-	color: #fff;
+/**** Page CV ****/
+table{
+    width: 100%;
+    color: black;
+    background-color: white;
+    border-spacing: 5px;
 }
-#projet1_clos a.ouvrir, #projet1_clos a.fermer {
+h2, h3, h4, h5, p{
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+    text-align: center;
+}
+ul, li{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.trait {
+    font: 3px;
+    color: green;
+}
+.colonne1,.colonne3 {
+    width: 10%;
+    text-align: center;
+    vertical-align: top;
+}
+.colonne1{
+    padding: 0px;
+    font-weight: bold;
+}
+.colonne2{
+    width: 80%;
+    vertical-align: top;
+}
+#EP .section1,.section3{
+    width: 32%; 
+}
+#EP .section2{
+    width: 35%;
+}
+#AC .section1,.section3{
+    width: 30%;
+}
+#AC .section2{
+    width: 27%;
+}
+#F .section1,.section3{
+    width: 30%;
+}
+#F .section2{
+    width: 15%;
+}
+#IC .section1, .section3{
+    width: 30%;
+}
+#IC .section2{
+    width: 40%;
+}
+.détail{
+    font-style: italic ;
+    margin-top: 7px;
+}
+#entete .colonne1, .colonne3{
+    vertical-align: bottom;
+}
+#entete .colonne2{
+    vertical-align: middle;
+}
+#identite, .section2{
+    color: #336699;
+}
+#adresse{
+   font-weight: normal; 
+}/**** fin Page CV ****/
+
+/**** Page Réalisations ****/
+/*** Animation des paragraphes ***/
+/** apparence **/
+#projet1 {
+    /*background: #6B9A49; 
+        color: #fff;*/
+}
+#projet1 a.ouvrir, #projet1 a.fermer {
     background: #555;
     color: #fff;
     padding: 3px;
@@ -123,32 +200,34 @@
     padding-left: 5px;
 }
 #article1{
-	padding: 10px;
-	min-height: 30px;
+    padding: 10px;
+    min-height: 30px;
 }/** fin apparence **/
 
 /** positionnement **/
-#projet1_clos a.ouvrir, #projet1_clos a.fermer {
+#projet1 a.ouvrir, #projet1 a.fermer {
     position: absolute;
-	width: 97%;
-	border: solid 1px yellow;
+    width: 97%;
+    border: solid 1px yellow;
 }/** fin positionnement **/
 
 /** animation **/
-#projet1_clos a.fermer {
+#projet1 a.fermer {
     display: none;
 }
-#projet1:target #article1 {
+#projet1_clos:target #article1 {
     display: none;
 }
-#projet1_clos{
+#projet1{
     -webkit-transition: all .5s ease-in;
     transition: all .5s ease-in;
 }
-#projet1_clos:target a.ouvrir {
+#projet1:target a.ouvrir {
     display: none;
 }
-#projet1_clos:target a.fermer {
+#projet1:target a.fermer {
     display: block;
 } /** fin animation **/
+/*** fin Animation des paragraphes ***/
+/**** fin Page Réalisations ****/
 
