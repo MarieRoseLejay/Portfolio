@@ -1,20 +1,31 @@
 <?php
-	include('View_Entete.php');
+    include('View_Entete.php');
 
-	include('View_Menu.php');
+    include('View_Menu.php');
 	
     echo'
-		<section class="corps" id="corps_Environnement">
-            <h1> Titre </h1>
-			<hr>
-            <p class="text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
-            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
-            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-            officia deserunt mollit anim id est laborum."</p>
+        <section class="corps" id="corps_Environnement">
+            <h1> Environnement et Développement durable </h1>
+            <hr>
+            <p class="text"> 
+                « Le développement durable est un développement qui répond aux besoins du présent sans compromettre 
+                la capacité des générations futures de répondre aux leurs. » Rapport Bruntland, 1987.<br/>
+                <br/>
+                Il peut être symbolisé comme le résultat de l\'interaction équitable entre la sphère environnementale
+                la sphère sociale et la sphère économique.
+            </p>
+                <img src="../Images/SchemaEDD.png" alt="Schéma du développement durable"/>
+                
+            <p>
+                Historiquement les premières notions de développement durable apparaissent dans les années 70 avec le rapport
+                "Halte à la croissance ?" publié par le club de Rome.<br/>
+                L\'idée que la croissance peut être destructrice de notre milieu et mettre en péril la survie de l\'espèce humaine 
+                est évoquée pour la première fois.<br/>
+                <br/>
+                Cette notion rencontre un fort soutien civil et des politique locaux lors du Sommet de la Terre de Rio en 1992.
+                De cette manifestation découlent notamment les agendas 21 présents dans les villes.
+            </p>
         </section>
 	';
 		
-	include('View_PiedPage.php');
+    include('View_PiedPage.php');
