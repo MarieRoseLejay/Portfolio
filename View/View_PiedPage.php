@@ -1,7 +1,3 @@
-<?php
-	echo'
-			<!-- Fin body et page html -->
-			</body>
-		</html>
-	';
-?>
+    <!-- Fin body et page html -->
+    </body>
+</html>

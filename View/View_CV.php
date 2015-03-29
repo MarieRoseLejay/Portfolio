@@ -1,9 +1,7 @@
 <?php
-        include('View_Entete.php');
-
-        include('View_Menu.php');
-        
-    echo'
+    include('View_Entete.php');
+    include('View_Menu.php');
+?>        
 <section class="corps" id="corps_CV"> 
     <h1> Curriculum Vitae </h1>
     <hr>
@@ -11,7 +9,6 @@
         <table id="entete">
             <tr><!-- Entête de présentation-->
                 <td class="colonne1"><!-- adresse -->
-                    <br/>
                     <p id="identite">Marie-Rose LEJAY </p>
                     <p id=adresse>384 avenue Adolphe Alphand <br/>
                     34080 MONTPELLIER <br/>
@@ -22,7 +19,6 @@
                 <!-- titre -->
                 <td class="colonne2" id="titre"><h2> Analyste Programmeuse </h2></td>
                 <!-- photo -->
-                <br/>
                 <td class="colonne3"><img src="../Images/DSC01278_v8.jpg"> </img></td>
             </tr>
         </table>
@@ -33,7 +29,7 @@
                 <td class="section3"><hr class="trait"></td>
             </tr>
         </table>
-        <table>
+        <table id="EP2">
             <tr><!-- classement par mission -->
                 <!-- période -->
                 <td class="colonne1"> 2012-14 </br> (26 mois) </td>
@@ -284,7 +280,7 @@
                 <td class="section3"><hr class="trait"></td>
             </tr>
         </table>
-        <table>
+        <table id="IC2">
             <tr><!-- catégorie -->
                 <td class="colonne1">Loisirs :</td>
                 <!-- détail -->
@@ -292,10 +288,10 @@
                 <td class="colonne3"></td>
             </tr>
             <tr><!-- catégorie -->
-                <td class="colonne1">Autre : <br/><br/></td>
+                <td class="colonne1">Autre :</td>
                 <!-- détail -->
-                <td class="colonne2">Permis B, véhicule personnel<br/><br/></td>
-                <td class="colonne3"><br/><br/></td>
+                <td class="colonne2">Permis B, véhicule personnel</td>
+                <td class="colonne3"></td>
             </tr>
         </table> 
     </section>
@@ -309,6 +305,4 @@
         <a href="https://secure.viadeo.com/fr/signin"> <img id="viadeo" src="../Images/viadeo.png" alt="Viadeo"/> </a> 
     </aside>
 </section>
-';
-
-include('View_PiedPage.php');
+<?php include('View_PiedPage.php');

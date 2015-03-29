@@ -91,7 +91,9 @@
 .texte{
     height: 80%;
 }
-.liens{
+h2, h4, p{
+    color: black;
+    text-align: left;
 }
 /** images**/
 #linkedin{
@@ -107,20 +109,20 @@
 /**** fin Architecture de la page ****/
 
 /**** Page CV ****/
-table{
+#corps_CV table{
     width: 100%;
     color: black;
     background-color: white;
     border-spacing: 5px;
 }
-h2, h3, h4, h5, p{
+#corps_CV h2, #corps_CV h3, #corps_CV h4, #corps_CV h5, #corps_CV p{
     margin: 0px;
     padding: 0px;
 }
-h2{
+#corps_CV h2{
     text-align: center;
 }
-ul, li{
+#corps_CV ul, #corps_CV li{
     margin-top: 2px;
     margin-bottom: 2px;
 }
@@ -132,6 +134,8 @@ ul, li{
     width: 10%;
     text-align: center;
     vertical-align: top;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .colonne1{
     padding: 0px;
@@ -141,25 +145,25 @@ ul, li{
     width: 80%;
     vertical-align: top;
 }
-#EP .section1,.section3{
-    width: 32%; 
+#EP .section1,#EP .section3{
+    width: 32%;
 }
 #EP .section2{
     width: 35%;
 }
-#AC .section1,.section3{
+#AC .section1,#AC .section3{
     width: 30%;
 }
 #AC .section2{
     width: 27%;
 }
-#F .section1,.section3{
+#F .section1,#F .section3{
     width: 30%;
 }
 #F .section2{
     width: 15%;
 }
-#IC .section1, .section3{
+#IC .section1,#IC .section3{
     width: 30%;
 }
 #IC .section2{
@@ -169,11 +173,19 @@ ul, li{
     font-style: italic ;
     margin-top: 7px;
 }
-#entete .colonne1, .colonne3{
+#entete .colonne1, #entete .colonne3{
     vertical-align: bottom;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
 }
 #entete .colonne2{
     vertical-align: middle;
+    padding-top: 10px;
+}
+#IC2:last-of-type{
+    padding-bottom: 10px;
 }
 #identite, .section2{
     color: #336699;
@@ -185,6 +197,13 @@ ul, li{
 /**** Page Réalisations ****/
 /*** Animation des paragraphes ***/
 /** apparence **/
+#corps_Realisations h2{
+    margin-bottom: 7px;
+}
+#corps_Realisations p{
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
 #projet1 {
     /*background: #6B9A49; 
         color: #fff;*/
@@ -230,4 +249,63 @@ ul, li{
 } /** fin animation **/
 /*** fin Animation des paragraphes ***/
 /**** fin Page Réalisations ****/
+
+/**** Page Veille ****/
+#corps_Veille h2{
+    margin-bottom: 7px;
+}
+#corps_Veille h4{
+    margin-bottom: 0px;
+}
+#corps_Veille p{
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+/**** fin Page Veille ****/
+
+/**** Page Environnement ****/
+#corps_Environnement img{
+    margin-left: 35%;
+}
+/**** fin Page Environnement ****/
+
+/**** Page Contact ****/
+form{
+//    height: 80%;
+}
+label{
+    display: inline-block; 
+    float: left;
+    width: 90px;
+    clear: left;
+}
+#corps_Contact form{
+    height: 85%;
+}
+#corps_Contact p, #corps_Contact aside{
+    float: left;
+    clear: both;
+}
+.input{
+    float: left;
+    width: 85%;
+    clear: right;
+}
+.error{
+    color: brown;
+    position: relative;
+    left: 90px;
+}
+#contenu{
+    height: 300px;
+}
+#submit{
+    float: left;
+    clear: both;
+    position: relative;
+    left: 90px;
+    margin-bottom: 20px;
+}
+/**** fin Page Contact ****/
 
