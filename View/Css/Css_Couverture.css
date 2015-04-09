@@ -9,88 +9,91 @@
  	border-radius : 50%;
 	background-color : black;
 	opacity: 0.75;
-	color : white;
+	color:rgba(255,255,255,0.50);
 	text-decoration: none;
 	text-align : center;
 	font-size : 50px;
 }
 
-/** icônes **/
-.fa-file-pdf-o {} /*document pdf pour proposer de télécharger au format pdf*/
-.fa-download{} /*téléchargement pour proposer de télécharger des éléments*/
+#link_Portfolio:hover, #portfolio:hover{
+    color:rgba(255,255,255,1);
+
+}
+
+/** icï¿½nes **/
+.fa-file-pdf-o {} /*document pdf pour proposer de tï¿½lï¿½charger au format pdf*/
+.fa-download{} /*tï¿½lï¿½chargement pour proposer de tï¿½lï¿½charger des ï¿½lï¿½ments*/
 
 /** Menu **/
 #link_Accueil, #Accueil{
     left : 45%;
     top : 19.5%;
-	color : #99CCFF;
-	text-decoration: none;
+    color : #99CCFF;
+    text-decoration: none;
 }
 #link_CV, #CV{
     left : 60.5%;
     top : 34%;
-	color : #CC99FF;
-	text-decoration: none;
+    color : #CC99FF;
+    text-decoration: none;
 }
 #link_Realisations, #Realisations{
     left : 60.5%;
     top : 57%;
-	color : #99FF99;
-	text-decoration: none;
+    color : #99FF99;
+    text-decoration: none;
 }
 #link_Veille, #Veille{
     left : 45%;
     top : 70.5%;
-	color : #FFFFCC;
-	text-decoration: none;
+    color : #FFFFCC;
+    text-decoration: none;
 }
 #link_Environnement, #Environnement{
     left : 29.5%;
     top : 57%;
-	color : #FFFF99;
-	text-decoration: none;
+    color : #FFFF99;
+    text-decoration: none;
 }
 #link_Contact, #Contact{
     left : 29%;
     top : 34%;
-	color : #FFCC99;
-	text-decoration: none;
+    color : #FFCC99;
+    text-decoration: none;
 }
-
-
+body{
+    background-image: url(/Portfolio/Images/DSC04094_v3.JPG);
+}
 .menu{
-/*	border: solid yellow;*/
-	position : fixed;
-	z-index: 2;
+    position : fixed;
+    z-index: 2;
     width : 125px;
-	min-width : 125px;
-	height : 125px;
-	line-height : 125px;
- 	border-radius : 50%;
+    min-width : 125px;
+    height : 125px;
+    line-height : 125px;
+    border-radius : 50%;
     background-color : black;
-	opacity: 0.75;
+    opacity: 0.75;
     color : white;
-	text-align : center;
-	font-size: 40px;
+    text-align : center;
+    font-size: 40px;
 }
 .menu .fa{
-	position : relative;
-
+    position : relative;
 }
 .menu span{
-	display : none;
+    display : none;
 }
 .menu:hover span{
-/*	border: solid yellow;*/
-	position : absolute;
-	display : inline;
-	z-index: 3; /* On définit une valeur pour l'ordre d'affichage. */
-   /*white-space: nowrap;*/ /* On change la valeur de la propriété white-space pour qu'il n'y ait pas de retour à la ligne non désiré. */
-	top: 35px;
-	left: 40px;
-	background: black;
-	color:white;
- 	border-radius : 50%;
-	font-size: 20px;
-	padding: 10px;
+    position : absolute;
+    display : inline;
+    z-index: 3; /* On dï¿½finit une valeur pour l'ordre d'affichage. */
+   /*white-space: nowrap;*/ /* On change la valeur de la propriï¿½tï¿½ white-space pour qu'il n'y ait pas de retour ï¿½ la ligne non dï¿½sirï¿½. */
+    top: 35px;
+    left: 40px;
+    background: black;
+    color:white;
+    border-radius : 50%;
+    font-size: 20px;
+    padding: 10px;
 }

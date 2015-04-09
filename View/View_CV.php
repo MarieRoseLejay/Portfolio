@@ -42,15 +42,15 @@
                         <li class="détail"> Mission Conseil Général 59 maintenance corrective et opérationnelle chez le client 
                             (septembre à août, 11 mois) : </li>
                         <li> Support quotidien de niveau 1 à niveau 3 (assistance téléphonique, résolution de bugs, développements
-                            correctifs) sur un ensemble défini d\'applications sur le domaine DAS (aide à l\'enfance), </li>
-                        <li> Développements de correctifs ou d\'évolutions en vba et java script pour des applications clients, </li>
-                        <li> Réalisation et passage de scripts d\'extraction de données en sql, </li>
+                            correctifs) sur un ensemble défini d'applications sur le domaine DAS (aide à l'enfance), </li>
+                        <li> Développements de correctifs ou d'évolutions en vba et java script pour des applications clients, </li>
+                        <li> Réalisation et passage de scripts d'extraction de données en sql, </li>
                         <li> Qualification, </li>
                         <li> Rédaction de la documentation utilisateur, </li>
-                        <li> Maintien et mise à jour de l\'outil de référencement des bugs récurrents,</li>
+                        <li> Maintien et mise à jour de l'outil de référencement des bugs récurrents,</li>
 
                         <li class="détail"> Mission Kits en centre de service (chez le client septembre à avril, 8 mois) : </li>
-                        <li> Formation fonctionnelle à la version business – ecommerce d\'Oracle Atg, </li>
+                        <li> Formation fonctionnelle à la version business – ecommerce d'Oracle Atg, </li>
                         <li> Réunions client, </li>
                         <li> Définition des processus de fonctionnement du projet côté client, </li>
                         <li> Utilisation service now, mantis </li>
@@ -59,12 +59,12 @@
                         <li> Développements et qualifications de scripts en sql et pl/sql, </li>
                         <li> Utilisation de Svn (versioning du code), Sql+, passage de scripts sous Unix, </li>
                         <li> Qualifications, recettes, </li>
-                        <li> Support niveau 3 : recherche et résolution d\'erreurs (calculs entre différentes tables d\'un même schéma,
+                        <li> Support niveau 3 : recherche et résolution d'erreurs (calculs entre différentes tables d'un même schéma,
                             …), </li>
 
                         <li class="détail"> Mission Vallourec (2 semaines) : </li>
-                        <li> Développement java (messages d\'erreur), </li>
-                        <li> Utilisation d\'Eclipse </li>
+                        <li> Développement java (messages d'erreur), </li>
+                        <li> Utilisation d'Eclipse </li>
                     </ul>
                 </td>
                 <!-- poste -->
@@ -114,8 +114,8 @@
                     <h4 class="mission">Sensibilisation du personnel et mise en place de la démarche environnement au sein du service Ergonomie
                         et Mobilier Technique (E.M.T.) de SPIE</h4>
                     <ul>
-                        <li> Formation du personnel à l\'environnement,</li>
-                        <li> Création de supports de communication sur l\'environnement (newsletters hebdomadaires, entretiens de
+                        <li> Formation du personnel à l'environnement,</li>
+                        <li> Création de supports de communication sur l'environnement (newsletters hebdomadaires, entretiens de
                             5 minutes hebdomadaires, réunions de formation trimestrielles) </li>
                     </ul>
                 </td>
@@ -147,7 +147,7 @@
                     <!-- descriptif missions -->
                     <h4 class="mission">Recherche et développement au sujet du coefficient de ruissellement des toitures végétalisées</h4>
                     <ul>
-                        <li> Rédaction de synthèses d\'expériences et d\'un rapport</li>
+                        <li> Rédaction de synthèses d'expériences et d'un rapport</li>
                     </ul>
                 </td>
                 <!-- poste -->
@@ -252,7 +252,7 @@
                 <td class="colonne1">2012</td>
                 <!-- intitulé et matières -->
                 <td class="colonne2"><h3>Formation à distance (3 mois)</h3>
-                    <p>Energie et Développement durable et Energies renouvelables dans l\'habitat économe en énergie</p></td>
+                    <p>Energie et Développement durable et Energies renouvelables dans l'habitat économe en énergie</p></td>
                 <!-- organisme -->
                 <td class="colonne3">CNAM</td>
             </tr>

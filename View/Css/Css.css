@@ -80,6 +80,7 @@
     height: 90%;
     border : 3px black solid;
     background-color : gray;
+    opacity: 0.75;
     padding : 12px;
     margin : 12px;
     overflow : auto;
@@ -96,6 +97,9 @@ h2, h4, p{
     text-align: left;
 }
 /** images**/
+body{
+ background-image: url(/Portfolio/Images/DSC04094_v3.JPG);
+}
 #linkedin{
     width : 24px;
     height : 24px;
@@ -178,7 +182,6 @@ h2, h4, p{
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    
 }
 #entete .colonne2{
     vertical-align: middle;

@@ -5,7 +5,7 @@
 <section class="corps" id="corps_Realisations">
     <h1> Titre </h1>
     <hr>
-    <p class="text">"L\'ensemble des réalisations présentées dans cette page correspondent à des projets personnels réalisés dansle cadre du BTS SIO SLAM"</p>
+    <p class="text">"L'ensemble des réalisations présentées dans cette page correspondent à des projets personnels réalisés dansle cadre du BTS SIO SLAM"</p>
     <div id="projet1_clos">
         <div id="projet1">
             <a href="#projet1" class="ouvrir"> Portfolio ouvrir <i class="fa fa-sort-desc" id="icone1"> </i></a>
@@ -14,7 +14,7 @@
                 <h2> Portfolio </h2>
                 <p> Ce portfolio a été développé avec les langages php, html et css suivant un model MVC. </br>
                     Il utilise la librairie graphique fontawesome. </br> 
-                    Son code et l\'historique de sa création sont disponibles sur 
+                    Son code et l'historique de sa création sont disponibles sur 
                     <a href="https://github.com/MarieRoseLejay/Portfolio"> Github 
                 </p>
             </article>
@@ -30,7 +30,7 @@
                     Il utilise la librairie graphique Tkinter. </br>
                     Tout au long du développement des tests unitaires utilisant le module Unitest de la librairie python ont été réalisés. </br>
                     (le code coverage du code a également été réalisé.)</br> 
-                    Son code, sa documentation et l\'historique de sa création sont disponibles sur 
+                    Son code, sa documentation et l'historique de sa création sont disponibles sur 
                     <a href="#"> Github 
                 </p>
             </article>
@@ -44,7 +44,7 @@
                 <h2> Calculatrice java </h2>
                 <p> Cette application a été développée avec le langage java. </br>
                     Elle utilise la librairie graphique Swing. </br>
-                    Son code et l\'historique de sa création sont disponibles sur 
+                    Son code et l'historique de sa création sont disponibles sur 
                     <a href="#"> Github 
                 </p>
             </article>
@@ -58,7 +58,7 @@
                 <h2> Site web de vente en ligne </h2>
                 <p> Ce site web  a été développé avec les langages php, html et css suivant un model MVC. </br>
                     Il utilise le framework Twitter Bootstrap. </br>
-                    Son code et l\'historique de sa création sont disponibles sur 
+                    Son code et l'historique de sa création sont disponibles sur 
                     <a href="https://github.com/MarieRoseLejay/SiteWebVenteEnLigne"> Github
                 </p>
             </article>
@@ -72,7 +72,7 @@
                 <h2> Application Android </h2>
                 <p> Cette application Android a été développée avec le langage . </br>
                     Elle utilise le framework  . </br>
-                    Son code et l\'historique de sa création sont disponibles sur 
+                    Son code et l'historique de sa création sont disponibles sur 
                     <a href="#"> Github 
                 </p>
             </article>
@@ -85,7 +85,7 @@
             <article id="article6">
                 <h2> Application web Buruli </h2>
                 <p> Cette application a été développée avec le langage php5, html et css. </br>
-                    Elle utilise le framework cakephp 3.0 et s\'appuie sur une base de donnée ProstgresSQL. </br>
+                    Elle utilise le framework cakephp 3.0 et s'appuie sur une base de donnée ProstgresSQL. </br>
                     Elle peut être consultée en suivant  
                     <a href="#"> ce lien </p>
             </article>
