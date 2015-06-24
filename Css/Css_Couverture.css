@@ -1,0 +1,99 @@
+#link_Portfolio, #portfolio{
+ 	position : fixed;
+	z-index: 1;
+	left : 38%;
+	top : 35%;
+	height : 300px;
+	width : 300px;
+	line-height : 300px;
+ 	border-radius : 50%;
+	background-color : black;
+	opacity: 0.75;
+	color:rgba(255,255,255,0.50);
+	text-decoration: none;
+	text-align : center;
+	font-size : 50px;
+}
+
+#link_Portfolio:hover, #portfolio:hover{
+    color:rgba(255,255,255,1);
+
+}
+
+/** ic�nes **/
+.fa-file-pdf-o {} /*document pdf pour proposer de t�l�charger au format pdf*/
+.fa-download{} /*t�l�chargement pour proposer de t�l�charger des �l�ments*/
+
+/** Menu **/
+#link_Accueil, #Accueil{
+    left : 45%;
+    top : 19.5%;
+    color : #99CCFF;
+    text-decoration: none;
+}
+#link_CV, #CV{
+    left : 60.5%;
+    top : 34%;
+    color : #CC99FF;
+    text-decoration: none;
+}
+#link_Realisations, #Realisations{
+    left : 60.5%;
+    top : 57%;
+    color : #99FF99;
+    text-decoration: none;
+}
+#link_Veille, #Veille{
+    left : 45%;
+    top : 70.5%;
+    color : #FFFFCC;
+    text-decoration: none;
+}
+#link_Environnement, #Environnement{
+    left : 29.5%;
+    top : 57%;
+    color : #FFFF99;
+    text-decoration: none;
+}
+#link_Contact, #Contact{
+    left : 29%;
+    top : 34%;
+    color : #FFCC99;
+    text-decoration: none;
+}
+body{
+    background-image: url(/Portfolio/Images/DSC04094.JPG);
+}
+.menu{
+    position : fixed;
+    z-index: 2;
+    width : 125px;
+    min-width : 125px;
+    height : 125px;
+    line-height : 125px;
+    border-radius : 50%;
+    background-color : black;
+    opacity: 0.75;
+    color : white;
+    text-align : center;
+    font-size: 40px;
+}
+.menu .fa{
+    position : relative;
+}
+.menu span{
+    display : none;
+}
+.menu:hover span{
+    position : absolute;
+    display : inline;
+    z-index: 3; /* On definit une valeur pour l'ordre d'affichage. */
+   /*white-space: nowrap;*/ /* On change la valeur de la propri�t� white-space pour qu'il n'y ait pas de retour � la ligne non d�sir�. */
+    top: 35px;
+    left: 40px;
+    background: black;
+    color:white;
+    border-radius : 50%;
+    font-size: 20px;
+    padding: 10px;
+}

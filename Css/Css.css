@@ -1,0 +1,333 @@
+﻿/**** Menu ****/
+.nav{
+    position : fixed;
+    right : 88%;
+    bottom : 10%;
+    width : 10%;
+}
+.menu{
+    /*	border: solid yellow;*/
+    position : relative;
+    z-index: 2;
+    width : 120px;
+    min-width : 25px;
+    height : 120px;
+    line-height : 125px;
+    border-radius : 50%;
+    background-color : black;
+    opacity: 0.75;
+    color : white;
+    text-align : center;
+    font-size: 40px;
+}
+.menu .fa{
+    position : relative;
+}
+.menu span{
+    display : none;
+}
+.menu:hover span{
+    /*	border: solid yellow;*/
+    position : absolute;
+    display : inline;
+    z-index: 3; /* On définit une valeur pour l'ordre d'affichage. */
+    /*white-space: nowrap;*/ /* On change la valeur de la propriété white-space pour qu'il n'y ait pas de retour à la ligne non désiré. */
+    top: 35px;
+    left: 30px;
+    background: black;
+    color:white;
+    border-radius : 50%;
+    font-size: 20px;
+    padding: 10px;
+}/**** fin Menu ****/
+
+/**** Architecture de la page ****/
+/** Colorisation **/
+#link_Accueil, #Accueil, #corps_Accueil{
+    color : #99CCFF;
+    text-decoration: none;
+}
+#link_CV, #CV, #corps_CV{
+    color : #CC99FF;
+    text-decoration: none;
+}
+#link_Realisations, #Realisations, #corps_Realisations{
+    color : #99FF99;
+    text-decoration: none;
+}
+#link_Veille, #Veille, #corps_Veille{
+    color : #FFFFCC;
+    text-decoration: none;
+}
+#link_Environnement, #Environnement, #corps_Environnement{
+    color : #FFFF99;
+    text-decoration: none;
+}
+#link_Contact, #Contact, #corps_Contact{
+    color : #FFCC99;
+    text-decoration: none;
+}/** fin Colorisation **/
+
+/** icônes **/
+.fa-file-pdf-o {} /*document pdf pour proposer de télécharger au format pdf*/
+.fa-download{} /*téléchargement pour proposer de télécharger des éléments*/
+/** fin icônes **/
+
+/** Corps de la page **/
+.corps{
+    float : left;
+    width : 80%;
+    height: 90%;
+    border : 3px black solid;
+    background-color : gray;
+    opacity: 0.75;
+    padding : 12px;
+    margin : 12px;
+    overflow : auto;
+    position : absolute;
+    right : 2%;
+    bottom : 2%;
+    font-family: Arial;
+}
+.texte{
+    height: 80%;
+}
+h2, h4, p{
+    color: black;
+    text-align: left;
+}
+/** images**/
+body{
+ background-image: url(/Portfolio/Images/DSC04094_v3.JPG);
+ background-size: cover;
+}
+#linkedin{
+    width : 24px;
+    height : 24px;
+    margin : 4px;
+}
+#viadeo{
+    width : 24px;
+    height : 24px;
+    margin : 4px;
+}/** fin Corps de la page **/
+/**** fin Architecture de la page ****/
+
+/**** Page CV ****/
+#corps_CV table{
+    width: 100%;
+    color: black;
+    background-color: white;
+    border-spacing: 5px;
+}
+#corps_CV h2, #corps_CV h3, #corps_CV h4, #corps_CV h5, #corps_CV p{
+    margin: 0px;
+    padding: 0px;
+}
+#corps_CV h2{
+    text-align: center;
+}
+#corps_CV ul, #corps_CV li{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.trait {
+    font: 3px;
+    color: green;
+}
+.colonne1,.colonne3 {
+    width: 10%;
+    text-align: center;
+    vertical-align: top;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.colonne1{
+    padding: 0px;
+    font-weight: bold;
+}
+.colonne2{
+    width: 80%;
+    vertical-align: top;
+}
+#EP .section1,#EP .section3{
+    width: 32%;
+}
+#EP .section2{
+    width: 35%;
+}
+#AC .section1,#AC .section3{
+    width: 30%;
+}
+#AC .section2{
+    width: 27%;
+}
+#F .section1,#F .section3{
+    width: 30%;
+}
+#F .section2{
+    width: 15%;
+}
+#IC .section1,#IC .section3{
+    width: 30%;
+}
+#IC .section2{
+    width: 40%;
+}
+.détail{
+    font-style: italic ;
+    margin-top: 7px;
+}
+#entete .colonne1, #entete .colonne3{
+    vertical-align: bottom;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#entete .colonne2{
+    vertical-align: middle;
+    padding-top: 10px;
+}
+#IC2:last-of-type{
+    padding-bottom: 10px;
+}
+#identite, .section2{
+    color: #336699;
+}
+#adresse{
+   font-weight: normal; 
+}/**** fin Page CV ****/
+
+/**** Page Réalisations ****/
+/*** Animation des paragraphes ***/
+/** apparence **/
+#corps_Realisations h2{
+    margin-bottom: 7px;
+}
+#corps_Realisations p{
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+#projet1_clos, #projet2_clos, #projet3_clos, #projet4_clos, #projet5_clos, #projet6_clos, #proje7_clos{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#projet1, #projet2, #projet3, #projet4, #projet5, #projet6, #projet7{
+    border: 1px solid;
+}
+#article1, #article2, #article3, #article4, #article5, #article6, #article7{
+    display: none; /*pas d'affichage du texte par défaut*/
+}
+#projet1 a.ouvrir, #projet1 a.fermer, #projet2 a.ouvrir, #projet2 a.fermer, #projet7 a.ouvrir, #projet7 a.fermer,
+#projet3 a.ouvrir, #projet3 a.fermer, #projet4 a.ouvrir, #projet4 a.fermer, 
+#projet5 a.ouvrir, #projet5 a.fermer, #projet6 a.ouvrir, #projet6 a.fermer{
+    background: #555;
+    color: #99FF99;
+    font-weight: bold;
+    padding: 3px;
+    text-decoration: none;
+}
+#icone1, #icone2, #icone3, #icone4, #icone71, #icone72,
+#icone5, #icone6, #icone7, #icone8, #icone9, #icone10, #icone11, #icone12 {
+    font-size: 20px;
+    padding-left: 5px;
+}
+#article1, #article2, #article3, #article4, #article5, #article6, #article7 {
+    padding: 10px;
+    min-height: 30px;
+}/** fin apparence **/
+
+/** positionnement **/
+#projet1 a.ouvrir, #projet1 a.fermer, #projet2 a.ouvrir, #projet2 a.fermer, #projet7 a.ouvrir, #projet7 a.fermer,
+#projet3 a.ouvrir, #projet3 a.fermer, #projet4 a.ouvrir, #projet4 a.fermer, 
+#projet5 a.ouvrir, #projet5 a.fermer, #projet6 a.ouvrir, #projet6 a.fermer{
+    position: absolute;
+    width: 97%;
+}/** fin positionnement **/
+
+/** animation **/
+#projet1 a.fermer, #projet2 a.fermer,#projet3 a.fermer,#projet4 a.fermer,#projet5 a.fermer,#projet6 a.fermer, #projet7 a.fermer{/*lien "fermer" affiché quand projet1(=lien ouvrir) est ciblé*/
+    display: none;
+}
+
+#projet1:target #article1, #projet2:target #article2, #projet3:target #article3,#projet4:target #article4,#projet5:target #article5,#projet6:target #article6, #projet7:target #article7{/*texte visible quand projet1(=lien ouvrir) est ciblé*/
+    display: block;
+}
+#projet1:target a.ouvrir, #projet2:target a.ouvrir,  #projet3:target a.ouvrir,  #projet4:target a.ouvrir,  #projet5:target a.ouvrir,  #projet6:target a.ouvrir, #projet7:target a.ouvrir{/*lien "ouvrir" masqué quand projet1(=lien ouvrir) est ciblé*/
+display: none;
+}
+#projet1:target a.fermer, #projet2:target a.fermer,#projet3:target a.fermer,#projet4:target a.fermer,#projet5:target a.fermer,#projet6:target a.fermer, #projet7:target a.fermer{/*lien "fermer" affiché quand projet1(=lien ouvrir) est ciblé*/
+    display: block;
+}
+#projet1, #projet2, #projet3, #projet4,#projet5,#projet6, #projet7{/*paramétrage du mouvement d'ouverture du texte*/
+    -webkit-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+}
+#projet1_clos:target #article1, #projet2_clos:target #article2,#projet3_clos:target #article3,#projet4_clos:target #article4,#projet5_clos:target #article5,#projet6_clos:target #article6, #projet7_clos:target #article7{/*texte masqué quand projet1_clos(=lien fermer) est ciblé*/
+    display: none;
+}
+ /** fin animation **/
+
+
+/*** fin Animation des paragraphes ***/
+/**** fin Page Réalisations ****/
+
+/**** Page Veille ****/
+#corps_Veille h2{
+    margin-bottom: 7px;
+}
+#corps_Veille h4{
+    margin-bottom: 0px;
+}
+#corps_Veille p{
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+/**** fin Page Veille ****/
+
+/**** Page Environnement ****/
+#corps_Environnement img{
+    margin-left: 35%;
+}
+/**** fin Page Environnement ****/
+
+/**** Page Contact ****/
+form{
+//    height: 80%;
+}
+label{
+    display: inline-block; 
+    float: left;
+    width: 90px;
+    clear: left;
+}
+#corps_Contact form{
+    height: 85%;
+}
+#corps_Contact p, #corps_Contact aside{
+    float: left;
+    clear: both;
+}
+.input{
+    float: left;
+    width: 85%;
+    clear: right;
+}
+.error{
+    color: brown;
+    position: relative;
+    left: 90px;
+}
+#contenu{
+    height: 300px;
+}
+#submit{
+    float: left;
+    clear: both;
+    position: relative;
+    left: 90px;
+    margin-bottom: 20px;
+}
+/**** fin Page Contact ****/
+
