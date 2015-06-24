@@ -63,6 +63,7 @@
 }
 body{
     background-image: url(/Portfolio/Images/DSC04094.JPG);
+    background-size: cover;
 }
 .menu{
     position : fixed;

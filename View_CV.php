@@ -19,7 +19,7 @@
                 <!-- titre -->
                 <td class="colonne2" id="titre"><h2> Analyste Programmeuse </h2></td>
                 <!-- photo -->
-                <td class="colonne3"><img src="../Images/DSC01278_v8.jpg"> </img></td>
+                <td class="colonne3"><img src="Images/DSC01278_v8.jpg"> </img></td>
             </tr>
         </table>
         <table id="EP">
@@ -301,8 +301,8 @@
     <!-- Réseaux sociaux -->
     <aside class="liens"> Vous pouvez aussi me retrouver sur : 
         <br>
-        <a href="https://fr.linkedin.com/"> <img id="linkedin" src="../Images/linkedin2.png" alt="Linkedin"/> </a>      
-        <a href="https://secure.viadeo.com/fr/signin"> <img id="viadeo" src="../Images/viadeo.png" alt="Viadeo"/> </a> 
+        <a href="https://fr.linkedin.com/"> <img id="linkedin" src="Images/linkedin2.png" alt="Linkedin"/> </a>      
+        <a href="https://secure.viadeo.com/fr/signin"> <img id="viadeo" src="Images/viadeo.png" alt="Viadeo"/> </a> 
     </aside>
 </section>
 <?php include('View_PiedPage.php');

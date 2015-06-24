@@ -67,8 +67,8 @@
     </form>
     <aside class="liens"> Vous pouvez aussi me retrouver sur : 
         <br>
-        <a href="https://fr.linkedin.com/pub/marie-rose-lejay/43/2aa/a76"> <img id="linkedin" src="../Images/linkedin2.png" alt="Linkedin"/> </a>      
-        <a href="http://fr.viadeo.com/fr/profile/marie-rose.lejay"> <img id="viadeo" src="../Images/viadeo.png" alt="Viadeo"/> </a> 
+        <a href="https://fr.linkedin.com/pub/marie-rose-lejay/43/2aa/a76"> <img id="linkedin" src="Images/linkedin2.png" alt="Linkedin"/> </a>      
+        <a href="http://fr.viadeo.com/fr/profile/marie-rose.lejay"> <img id="viadeo" src="Images/viadeo.png" alt="Viadeo"/> </a> 
     </aside>
 </section>
 <?php include('View_PiedPage.php');

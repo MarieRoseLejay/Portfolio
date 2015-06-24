@@ -1,6 +1,6 @@
 <?php
-    include('View_Entete.html');
-    include('View_Menu.html');
+    include('View_Entete.php');
+    include('View_Menu.php');
 ?>	
 <section class="corps" id="corps_Accueil"> 
     <h1> Bienvenue ! </h1>
@@ -14,8 +14,8 @@
 
     <aside class="liens"> Vous pouvez aussi me retrouver sur : 
         <br>
-        <a href="https://fr.linkedin.com/"> <img id="linkedin" src="../Images/linkedin2.png" alt="Linkedin"/> </a>      
-        <a href="https://secure.viadeo.com/fr/signin"> <img id="viadeo" src="../Images/viadeo.png" alt="Viadeo"/> </a> 
+        <a href="https://fr.linkedin.com/"> <img id="linkedin" src="Images/linkedin2.png" alt="Linkedin"/> </a>      
+        <a href="https://secure.viadeo.com/fr/signin"> <img id="viadeo" src="Images/viadeo.png" alt="Viadeo"/> </a> 
     </aside>
 </section>
-<?php include('View_PiedPage.html');
+<?php include('View_PiedPage.php');

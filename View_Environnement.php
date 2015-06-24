@@ -12,7 +12,7 @@
         Il peut être symbolisé comme le résultat de l'interaction équitable entre la sphère environnementale
         la sphère sociale et la sphère économique.
     </p>
-        <img src="../Images/SchemaEDD.png" alt="Schéma du développement durable"/>
+        <img src="Images/SchemaEDD.png" alt="Schéma du développement durable"/>
 
     <p>
         Historiquement les premières notions de développement durable apparaissent dans les années 70 avec le rapport

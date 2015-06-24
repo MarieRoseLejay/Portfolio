@@ -3,9 +3,9 @@
     include('View_Menu.php');
 ?>
 <section class="corps" id="corps_Realisations">
-    <h1> Titre </h1>
+    <h1> Réalisations </h1>
     <hr>
-    <p class="text">"L'ensemble des réalisations présentées dans cette page correspondent à des projets personnels réalisés dansle cadre du BTS SIO SLAM"</p>
+    <p class="text">L'ensemble des réalisations présentées dans cette page correspondent à des projets personnels réalisés dansle cadre du BTS SIO SLAM</p>
     <div id="projet1_clos">
         <div id="projet1">
             <a href="#projet1" class="ouvrir"> Portfolio ouvrir <i class="fa fa-sort-desc" id="icone1"> </i></a>
@@ -29,34 +29,29 @@
                 <p> Ce jeu a été développé avec le langage python suivant un model MVC. </br>
                     Il utilise la librairie graphique Tkinter. </br>
                     Tout au long du développement des tests unitaires utilisant le module Unitest de la librairie python ont été réalisés. </br>
-                    (le code coverage du code a également été réalisé.)</br> 
-                    Son code, sa documentation et l'historique de sa création sont disponibles sur 
-                    <a href="#"> Github </a>
                 </p>
             </article>
         </div>
     </div>
     <div id="projet3_clos">
         <div id="projet3">
-            <a href="#projet3" class="ouvrir"> Calculatrice java ouvrir <i class="fa fa-sort-desc" id="icone5"> </i></a>
-            <a href="#projet3_clos" class="fermer"> Calculatrice java fermer <i class="fa fa-sort-asc" id="icone6"> </i></a>
+            <a href="#projet3" class="ouvrir"> Calculatrice java <i class="fa fa-sort-desc" id="icone5"> </i></a>
+            <a href="#projet3_clos" class="fermer"> Calculatrice java <i class="fa fa-sort-asc" id="icone6"> </i></a>
             <article id="article3">
                 <h2> Calculatrice java </h2>
                 <p> Cette application a été développée avec le langage java. </br>
-                    Elle utilise la librairie graphique Swing. </br>
-                    Son code et l'historique de sa création sont disponibles sur 
-                    <a href="#"> Github </a>
+                    Elle utilise la librairie graphique Swing.
                 </p>
             </article>
         </div>
     </div>
     <div id="projet4_clos">
         <div id="projet4">
-            <a href="#projet4" class="ouvrir"> Site web de vente en ligne ouvrir <i class="fa fa-sort-desc" id="icone7"> </i></a>
-            <a href="#projet4_clos" class="fermer"> site web de vente en ligne fermer <i class="fa fa-sort-asc" id="icone8"> </i></a>
+            <a href="#projet4" class="ouvrir"> Backup de site web de vente en ligne <i class="fa fa-sort-desc" id="icone7"> </i></a>
+            <a href="#projet4_clos" class="fermer"> Backup de site web de vente en ligne <i class="fa fa-sort-asc" id="icone8"> </i></a>
             <article id="article4">
-                <h2> Site web de vente en ligne </h2>
-                <p> Ce site web  a été développé avec les langages php, html et css suivant un model MVC. </br>
+                <h2> Backup de site web de vente en ligne </h2>
+                <p> Ce backup de site web  a été développé avec les langages php, html et css. </br>
                     Il utilise le framework Twitter Bootstrap. </br>
                     Son code et l'historique de sa création sont disponibles sur 
                     <a href="https://github.com/MarieRoseLejay/SiteWebVenteEnLigne"> Github </a>
@@ -66,28 +61,26 @@
     </div>
     <div id="projet5_clos">
         <div id="projet5">
-            <a href="#projet5" class="ouvrir"> Application Android ouvrir <i class="fa fa-sort-desc" id="icone9"> </i></a>
-            <a href="#projet5_clos" class="fermer"> Application Android fermer <i class="fa fa-sort-asc" id="icone10"> </i></a>
+            <a href="#projet5" class="ouvrir"> Client lourd java <i class="fa fa-sort-desc" id="icone9"> </i></a>
+            <a href="#projet5_clos" class="fermer"> Client lourd java <i class="fa fa-sort-asc" id="icone10"> </i></a>
             <article id="article5">
-                <h2> Application Android </h2>
-                <p> Cette application Android a été développée avec le langage . </br>
-                    Elle utilise le framework  . </br>
+                <h2> Client lourd lava </h2>
+                <p> Ce client lourd été développé avec le langage java. </br>
+                    il utilise le framework Swing. </br>
                     Son code et l'historique de sa création sont disponibles sur 
-                    <a href="#"> Github </a>
+                    <a href="https://github.com/MarieRoseLejay/ClientLourdNesti"> Github </a>
                 </p>
             </article>
         </div>
     </div>
     <div id="projet6_clos">
         <div id="projet6">
-            <a href="#projet6" class="ouvrir"> Application web Buruli ouvrir <i class="fa fa-sort-desc" id="icone11"> </i></a>
-            <a href="#projet6_clos" class="fermer"> Application web Buruli fermer <i class="fa fa-sort-asc" id="icone12"> </i></a>
+            <a href="#projet6" class="ouvrir"> Application web Buruli <i class="fa fa-sort-desc" id="icone11"> </i></a>
+            <a href="#projet6_clos" class="fermer"> Application web Buruli <i class="fa fa-sort-asc" id="icone12"> </i></a>
             <article id="article6">
                 <h2> Application web Buruli </h2>
                 <p> Cette application a été développée avec le langage php5, html et css. </br>
-                    Elle utilise le framework cakephp 3.0 et s'appuie sur une base de donnée ProstgresSQL. </br>
-                    Elle peut être consultée en suivant  
-                    <a href="#"> ce lien </a>
+                    Elle utilise le framework cakephp 3.0 et s'appuie sur une base de donnée ProstgresSQL.
                 </p>
             </article>
         </div>
